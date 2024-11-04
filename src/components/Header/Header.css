@@ -1,0 +1,23 @@
+.header-container{
+    /* border: 1px solid red; */
+    padding: 10px;
+    background-color: #0d1117;
+}
+.header-container img{
+    height: 50px;
+} 
+.primary-nav{
+    /* border: 1px solid red; */
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+
+   
+}
+.primary-nav a {
+    color: #023c9d;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }

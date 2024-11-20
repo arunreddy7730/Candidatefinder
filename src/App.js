@@ -1,8 +1,9 @@
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Header from "./components/Header/Header";
-import Home from "./components/Home";
+import Home from "./components/Home/Home";
 import Candidate from "./components/Candidate/Candidate";
 import Contact from "./components/Contact/ContactUs";
+import Login from "./components/Login/login";
 
 const Layout = () => {
   return (
@@ -22,6 +23,7 @@ function App() {
     { path:'/',element:<Home />},
     { path: "/candidate-finder", element: <Candidate /> },
     {path: "/contact-us", element: <Contact />},
+    {path: "/login", element: <Login />},
 
   ]
   }
